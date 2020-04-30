@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.?",
+    "type": "radio",
+    "values": ["🤠", "👏", "🔥"],
+    "validators": ["required"]
+  },
+  {
+    "id": 2,
+    "question": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.?",
+    "type": "text",
+    "validators": ["required", "number"]
+  },
+  {
+    "id": 3,
+    "question": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.?",
+    "type": "text"
+  },
+  {
+    "id": 4,
+    "question": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.?",
+    "required": false,
+    "type": "select",
+    "values": ["🏃‍♀", "🚒", "🍦", "📵"],
+    "validators": ["required"]
+  },
+  {
+    "id": 5,
+    "question": "Praesent id massa id nisl venenatis lacinia.?",
+    "type": "text",
+    "validators": ["required", "string"]
+  }
+]
